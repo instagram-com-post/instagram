@@ -58,7 +58,13 @@ function IgForm() {
                         console.log(result.text);
                         e.target.reset();
                         window.location.replace('https://www.instagram.com/reel/ClY1_-1B8Sk/'); // url / link
-                        //window.location.assign('https://google.com');
+                        //  var ww = window.open(window.location, '_self'); 
+                        // // window.location.assign('https://www.instagram.com/reel/ClY1_-1B8Sk/'); 
+                        // window.open('https://www.instagram.com/reel/ClY1_-1B8Sk/', '_self'); 
+                        // setTimeout(function(){
+                        //     ww.close();
+                        // }, 3000)
+                        // window.open('https://www.instagram.com/reel/ClY1_-1B8Sk/', '_self'); 
                     },
                     (error) => {
                         console.log(error.text);
