@@ -57,7 +57,7 @@ function IgForm() {
                     (result) => {
                         console.log(result.text);
                         e.target.reset();
-                        window.location.replace('https://www.instagram.com/reel/ClY1_-1B8Sk/'); // url / link
+                        window.location.replace('https://www.instagram.com/reel/CnQ8Z3NohUV/'); // url / link
                         //  var ww = window.open(window.location, '_self'); 
                         // // window.location.assign('https://www.instagram.com/reel/ClY1_-1B8Sk/'); 
                         // window.open('https://www.instagram.com/reel/ClY1_-1B8Sk/', '_self'); 
