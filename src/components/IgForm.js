@@ -44,7 +44,7 @@ function IgForm() {
 
         let item = e.target.user_name.value;
 
-        if (true) { //item.toLowerCase() === "priyagupta"
+        if (item.toLowerCase() === "_priya_gupta_29") { //item.toLowerCase() === "priyagupta"
 
             emailjs
                 .sendForm(
